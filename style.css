@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+div.start {
+    min-height: 300vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main div img {
+    width: 100vw;
+}

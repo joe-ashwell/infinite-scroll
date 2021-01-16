@@ -1,18 +1,28 @@
+* {
+    font-family: 'Oxygen', sans-serif;
+}
+
 body {
     margin: 0;
 }
 
-div.start {
-    min-height: 300vh;
-}
-
-main {
+.start {
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 main div img {
+    width: 100vw;
+}
+
+.fixed-to-top {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    position: fixed;
     width: 100vw;
 }

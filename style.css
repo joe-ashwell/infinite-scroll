@@ -2,27 +2,38 @@
     font-family: 'Oxygen', sans-serif;
 }
 
+h3 {
+    font-size: 5rem;
+}
+
 body {
     margin: 0;
 }
 
 .start {
-    height: 50vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-main div img {
-    width: 100vw;
-}
-
 .fixed-to-top {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.75);
     display: flex;
     flex-direction: row;
     height: max-content;
     position: fixed;
     width: 100vw;
+    transition: all 0.5s;
+}
+
+.infin-div {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
